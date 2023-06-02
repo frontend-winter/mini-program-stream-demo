@@ -80,6 +80,7 @@
 					dataText = dataText.toString('utf-8');
 					const lastIndex = dataText.lastIndexOf(
 						"\n",
+
 						dataText.length - 2
 					);
 					let chunk = dataText;
